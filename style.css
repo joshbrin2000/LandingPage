@@ -78,3 +78,36 @@ a{
     margin-top: 10px;
     padding: 0;
 }
+
+.block2 h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.imagerow{
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 0px 100px;
+    gap: 18px
+}
+
+.imagechunk{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagechunk p{
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.imagechunk img{
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+}
