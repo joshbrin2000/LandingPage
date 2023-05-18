@@ -112,3 +112,22 @@ a{
     border: 2px solid #3882F6;
     border-radius: 16px;
 }
+
+.block3{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px;
+    margin: 100px 0px
+}
+
+.block3 #quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.block3 .contrib{
+    text-align: right;
+    font-weight: 600;
+    margin-right: 50px
+}
