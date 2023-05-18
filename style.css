@@ -23,6 +23,13 @@ body{
     gap: 16px;
 }
 
+.block1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+}
+
 h1{
     padding: 0;
     margin: 0;
@@ -34,4 +41,31 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.block1 h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 300px;
+    margin-bottom: 6px;
+}
+
+.block1 p{
+    width: 400px;
+    padding: 0;
+    margin: 4px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.blurb button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    cursor: pointer;
+    border: 0;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
 }
