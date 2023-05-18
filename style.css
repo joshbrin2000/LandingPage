@@ -28,7 +28,6 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-color: #1F2937;
-    margin-bottom: 100px;
     padding-bottom: 100px;
 }
 
@@ -45,7 +44,7 @@ a{
     color: #E5E7EB;
 }
 
-.block1 h2{
+.blurb h2{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -53,7 +52,7 @@ a{
     margin-bottom: 6px;
 }
 
-.block1 p{
+.blurb p{
     width: 400px;
     padding: 0;
     margin: 4px;
@@ -70,4 +69,12 @@ a{
     border-radius: 6px;
     font-size: 10px;
     font-weight: 700;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0;
 }
