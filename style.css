@@ -3,7 +3,7 @@ body{
     padding: 0
 }
 
-.header{
+.header, .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -173,4 +173,10 @@ a{
     padding-top: 0;
     font-size: 12px;
     color: #E5E7EB;
+}
+
+.footer .copyright h3{
+    font-size: 12px;
+    color: #E5E7EB;
+    font-weight: 100;
 }
