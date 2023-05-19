@@ -131,3 +131,10 @@ a{
     font-weight: 600;
     margin-right: 50px
 }
+
+.block4{
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center
+}
